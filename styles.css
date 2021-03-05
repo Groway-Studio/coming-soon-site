@@ -1,3 +1,8 @@
+body {
+  background: black;
+  color: white;
+}
+
 .center-area {
   display: flex;
   flex-direction: column;
@@ -5,4 +10,24 @@
   align-items: center;
   text-align: center;
   min-height: 100vh;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-family: 'Baskervville';
+}
+
+p {
+  padding-top: 60px;
+  text-align: right;
+}
+
+span {
+  text-align: right; 
+  font-size: 1.8rem;
+}
+
+address a {
+  text-decoration: none;
+  color: white;
 }
