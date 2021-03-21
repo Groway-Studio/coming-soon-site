@@ -14,8 +14,9 @@ body {
 
 h1 {
   font-size: 2.2rem;
-  font-family: 'Baskervville';
+  font-family: 'Serif';
   width: 100%;
+  font-weight: normal;
 }
 
 p {
