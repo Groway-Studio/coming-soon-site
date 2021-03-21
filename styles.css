@@ -39,6 +39,7 @@ address a {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  text-size-adjust: auto;
 }
 
 .brand span {
