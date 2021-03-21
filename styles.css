@@ -13,21 +13,50 @@ body {
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   font-family: 'Baskervville';
+  width: 100%;
 }
 
 p {
-  padding-top: 60px;
-  text-align: right;
+  padding-top: 2px;
+  text-align: left;
 }
 
-span {
-  text-align: right; 
-  font-size: 1.8rem;
+img {
+  opacity: 100%;
 }
+
 
 address a {
   text-decoration: none;
   color: white;
+}
+
+.brand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand span {
+  padding: 10px;
+}
+
+.brand p {
+  text-align: center;
+
+}
+
+table tr td:nth-child(1) {
+  text-align: left;
+}
+
+table tr td:nth-child(2) {
+  text-align: right;
+}
+
+td {
+  padding: 5px;
 }
